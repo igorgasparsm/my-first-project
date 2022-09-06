@@ -1,0 +1,64 @@
+# Revisao Git/GitHub
+
+git clone url do https
+
+git status
+
+git add . = para adicionar a pasta que esta do lado de fora
+
+git commit -m = para adicionar a pasta no github
+
+git push origin main = enviar todos os commits que temos para a nuvem
+
+repositorio-git-e-github
+
+# Resumão Git e GitHub
+
+- SHA1
+- Objetos fundamentais
+- Sistemas distribuidos
+- Segurança (Chave SSH/Token)
+
+# SHA1
+
+- Algoritmo de incriptação construida pela NSA (Agencia de Seguraça Nacional dos EUA)
+
+- A encriptação gera conjunto de characteres identificador de 40 dígitos.
+
+# Objetos Fundamentais / Objetos Fundamentais
+
+- Blobs
+- Trees
+- Commits
+
+## Blobs
+ 
+- É utilizado para armazenar o conteúdo de cada arquivo em um repositório.
+
+## Trees
+
+- Armazenam blobs ou outros trees
+
+## Commit
+
+- É o objeto que aponta para uma arvore, parente , author, mensagem.
+
+# Chave SSH e Token
+
+## Chave SSH 
+
+- É a chave que permite vincular tua máquina para ser utilizada como servidor local. Isso permite que voce consiga vincule sua maquina com os servidore do github. Esse processo permite o envio do código sem ser preciso fazer login.
+
+## Token de Acesso Pessoal
+
+- É gerado um token no github e guardada na máquina e toda vez que você for fazer um commit o git vai pedir seu usuario e na hora da senha, voce vai usar seu token de uso pessoal
+
+# Primeiros comandos com Git
+
+- git init
+  - ls -a (conteudos ocultos)
+
+- git add
+
+- git commit
+
